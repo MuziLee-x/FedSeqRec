@@ -7,9 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import time, datetime
 import math
 
-'''
-Combine the test set of the two data sets
-'''
+
 
 MovieLens_path = ...
 Tweetings_path = ...
@@ -53,7 +51,7 @@ for i in range(len(user_set_Tw)):
         click = user_click_Twtmp[user_set_Tw[i]]
         click_avg = np.mean(np.array(click))
         user_avgclick_Tw.append(click_avg)
-print('Tw:the average user click length is: ',np.mean(np.array(user_avgclick_Tw)))  # 5.294986354225485
+print('Tw:the average user click length is: ',np.mean(np.array(user_avgclick_Tw)))  
 print('*********************************')
 
 
