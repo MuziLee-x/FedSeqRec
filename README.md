@@ -17,3 +17,5 @@ pandas==1.1.3
 
 # Disclaimer
 The present code is what was used at the time of submission of the paper, and our work is under review, so we do not release the preprocessed dataset for now.
+
+For the implementation of Seq2Tensor, we draw on https://github.com/tgcsaba/seq2tens.
