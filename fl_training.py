@@ -6,7 +6,7 @@ from preprecoess import *
 from generator import *
 from models import *
 
-client_data_path = "/home/lab31/FreedomLi/FedSeqRec(movie)/clients/MoviesData/"
+client_data_path = ...
 
 def add_noise(weights,lambd):
     for i in range(len(weights)):
