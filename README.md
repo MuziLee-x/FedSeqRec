@@ -21,6 +21,4 @@ The present code is what was used at the time of submission of the paper, and ou
 
 For the implementation of Seq2Tensor, we refer to https://github.com/tgcsaba/seq2tens.
 
-We used the glove.840B.300d embedding vecrors in https://nlp.stanford.edu/projects/glove/
-
-The embedding file should be placed in embedding_path
+We used the glove.840B.300d embedding vecrors in https://nlp.stanford.edu/projects/glove/.
