@@ -14,7 +14,6 @@ from models import *
 from fl_training import *
 
 
-# # Cluster split
 root_data_path = ...
 client_data_path =  ...
 embedding_path = ...
@@ -28,14 +27,14 @@ test_session, test_uid_click,test_uid_table = read_clickhistory(root_data_path,'
 test_user = parse_user(test_session,news_index)
 test_impressions, test_userids = get_test_input(test_session,news_index)
 
-lr = 0.40   # 
+lr = 0.40   
 # lr = 0.30  
 delta = 0.05
 lambd = 0.020
 ratio = 0.02
 # clients = 16  # MoocData
-clients = ['MovieLens', 'Tweetings']  # Movies
-batchsize = 32  # my code!!
+clients = ['MovieLens', 'Tweetings']  # MovieData
+batchsize = 32 
 alpha = 0.3
 # alpha = 1
 
