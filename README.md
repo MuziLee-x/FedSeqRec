@@ -1,3 +1,4 @@
+# Description
 This repository contains the implementation of paper "Federated Low-Rank Tensor Projections for Sequential Recommendation".
 
 # Requirements
